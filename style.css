@@ -25,16 +25,21 @@ p {
   color: white;
 }
 
-nav,
-#credits {
-  background-color: black;
+nav,#credits {
+  background-color: rgb(0, 0, 0);
   height: 60px;
-  /* Your code goes here */
+  /* Your code goes here */ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   width: 500px;
   /* Your code goes here */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .button {
